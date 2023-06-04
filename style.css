@@ -1,0 +1,158 @@
+body{
+display: flex;
+justify-content: center;
+flex-direction: column;;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.block{
+    
+    width:30vw;
+    margin-bottom: 6%;
+}
+header > h1{
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.045em;
+
+color: #000000;
+}
+h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+margin-bottom: 2%;
+
+text-transform: uppercase;
+
+color: #000000;
+}
+.info{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+margin-bottom: 5%;
+color: #000000;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    
+    height: 130vh;
+    grid-gap: 15%;
+    margin: 10%;
+    margin-top: 0;
+}
+
+.ph2{
+    
+    margin-top: 35%;
+    margin-bottom: -20%;
+    
+}
+
+.ph5{
+    
+    margin-top: 35%;
+    margin-bottom: -20%;
+}
+
+.ph1 > img{
+    object-fit: cover;
+    width: 100%
+}
+.ph2 > img{
+    object-fit: cover;
+    width: 100%
+}
+.ph3 > img{
+    object-fit: cover;
+    width: 100%
+}
+.ph4 > img{
+    object-fit: cover;
+    width: 100%
+}
+.ph5 > img{
+    object-fit: cover;
+    width: 100%
+}
+.ph6 > img{
+    object-fit: cover;
+    width: 100%
+}
+h4{
+    
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    text-transform: uppercase;
+    margin-top: -165%;
+    margin-left: 106%;
+    rotate: 90deg;
+    white-space: nowrap;
+
+}
+footer{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #B9BDCF;
+}
+@media only screen and (max-width: 600px){
+    header{
+       flex-direction: column;
+    }
+    .main{
+        grid-template-columns: repeat(2,3fr);
+        
+        
+        
+    }
+    .block{
+        width: 100%;
+    }
+    .ph2{
+       margin: 0;
+
+    }
+    .ph5{
+        margin:0;
+
+    }
+    .ph2 , .ph4, .ph6{
+        margin-top: 25%;
+    }
+
+    
+}
+
+
+
